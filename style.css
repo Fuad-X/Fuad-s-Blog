@@ -1,0 +1,76 @@
+body{
+    background-color: antiquewhite;
+    margin: 20px 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 10px;
+}
+
+header{
+    padding: 2%;
+    overflow: hidden;
+}
+
+header > #logo{
+    font-size: 2em;
+    float: left;
+}
+
+main{
+    padding: 2%;
+    overflow: hidden;
+}
+
+section{
+    float: left;
+    width: 75%;
+}
+
+aside{
+    float: right;
+    width: 25%;
+    background-color: greenyellow;
+    padding: 2%;
+}
+
+aside h3{
+    background-color: red;
+    color: white;
+    padding: 1%;
+}
+
+aside a{
+    color: black;
+}
+
+footer{
+    padding: 4%;
+    border-top: 1px solid gray;
+    text-align: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+h2, h3{
+    margin: 0px;
+}
+
+article{
+    padding: 3%;
+    border-bottom: 1px solid gray;
+}
+
+article:last-child{
+    border-bottom: 0px solid gray;
+}
+
+.topNavigationBar{
+    float: right;
+}
